@@ -67,3 +67,4 @@ header.site nav a:hover,header.site nav a.active{color:#fff;border-color:#fff}
 .stats b{color:var(--navy)}
 @media (prefers-color-scheme:dark){.stats b{color:var(--fg)}}
 .hero .eyebrow{color:#f5a623}
+.hero .eyebrow{line-height:1.7;letter-spacing:.1em}
