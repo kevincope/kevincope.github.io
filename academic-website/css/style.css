@@ -49,3 +49,4 @@ a.card:hover{border-color:var(--accent)}
 .hero .photo{width:100%;height:auto;aspect-ratio:auto;object-fit:contain;border-radius:8px}
 div.photo{aspect-ratio:1/1}
 @media(max-width:560px){.hero{grid-template-columns:1fr 130px;gap:16px}.hero h1{font-size:1.7rem}.lede{font-size:1rem}}
+.sr-only{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
