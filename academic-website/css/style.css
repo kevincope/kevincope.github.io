@@ -50,3 +50,19 @@ a.card:hover{border-color:var(--accent)}
 div.photo{aspect-ratio:1/1}
 @media(max-width:560px){.hero{grid-template-columns:1fr 130px;gap:16px}.hero h1{font-size:1.7rem}.lede{font-size:1rem}}
 .sr-only{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
+/* inverted scheme: navy header + hero, light About band */
+header.site{background:var(--navy)}
+header.site .brand{color:#f1efe8}
+header.site nav a{color:#b9c2d9}
+header.site nav a:hover,header.site nav a.active{color:#fff;border-color:#fff}
+.hero{background:var(--navy);color:#f1efe8;box-shadow:0 0 0 100vmax var(--navy);clip-path:inset(0 -100vmax);margin-top:0;position:relative}
+.hero .eyebrow{color:#b9c2d9}
+.hero .lede{color:#d5dbea}
+.hero .btn{background:#f1efe8;color:var(--navy)}
+.hero .btn.ghost{background:transparent;color:#f1efe8;border-color:#f1efe8}
+.hero .photo{background:#22325c;color:#b9c2d9}
+.band{background:var(--card);color:var(--fg)}
+.band h2{border-color:var(--rule)}
+.stats div{color:var(--muted)}
+.stats b{color:var(--navy)}
+@media (prefers-color-scheme:dark){.stats b{color:var(--fg)}}
